@@ -37,79 +37,104 @@ export default {
     return {
       glosarioData: [
         {
-          termino: 'Abstracción',
+          termino: 'Arquitectura estrella',
           significado:
-            'Proceso de identificar características esenciales de un objeto, ignorando los detalles no relevantes',
+            'Modelo de diseño de bases de datos dimensionales donde una tabla de hechos central se conecta con múltiples tablas de dimensiones desnormalizadas.',
         },
         {
-          termino: 'Clase',
+          termino: 'Bodega de datos',
           significado:
-            'Plantilla o modelo que define las propiedades y comportamientos de un tipo de objeto',
+            'Sistema de almacenamiento diseñado específicamente para el análisis y reporteo, que integra datos de múltiples fuentes en un modelo unificado.',
         },
         {
-          termino: 'Composición',
+          termino: 'Copo de nieve',
           significado:
-            'Relación fuerte entre clases donde una clase contiene a otra y es responsable de su ciclo de vida',
+            'Variante de la arquitectura estrella donde las dimensiones están normalizadas, creando una estructura más compleja pero con mejor eficiencia de almacenamiento.',
         },
         {
-          termino: 'Encapsulamiento',
+          termino: '<em>Data mart</em>',
           significado:
-            'Principio que oculta los detalles internos de una clase y expone solo lo necesario',
+            'Subconjunto de una bodega de datos enfocado en un área específica del negocio o departamento.',
         },
         {
-          termino: 'Herencia',
+          termino: 'Dimensiones conformadas',
           significado:
-            'Mecanismo que permite a una clase heredar propiedades y métodos de otra clase',
+            'Tablas de dimensiones estandarizadas que se comparten entre diferentes <em>data marts</em>, asegurando consistencia en el análisis.',
         },
         {
-          termino: 'Interfaz',
+          termino: 'ETL avanzado',
           significado:
-            'Contrato que especifica qué métodos debe implementar una clase',
+            'Procesos sofisticados de Extracción, Transformación y Carga que incluyen validaciones complejas y transformaciones avanzadas de datos.',
         },
         {
-          termino: 'Método',
+          termino: '<em>Feature importance</em>',
           significado:
-            'Función que define el comportamiento de los objetos de una clase',
+            'Medida que indica la relevancia o contribución de cada variable en un modelo predictivo o análisis estadístico.',
         },
         {
-          termino: 'Objeto',
+          termino: 'Metodología Inmon',
           significado:
-            'Instancia específica de una clase que contiene datos y comportamiento',
+            'Enfoque "<em>top-down</em>" para el diseño de bodegas de datos, que comienza con una visión empresarial completa y luego deriva en <em>data marts</em> específicos.',
         },
         {
-          termino: 'Patrón de Diseño',
+          termino: 'Metodología Kimball',
           significado:
-            'Solución reutilizable a un problema común en el diseño de <em>software</em>',
+            'Enfoque "<em>bottom-up</em>" para el diseño de bodegas de datos, que construye data marts incrementalmente que luego se integran en una solución empresarial.',
         },
         {
-          termino: 'Polimorfismo',
+          termino: 'Metadatos empresariales',
           significado:
-            'Capacidad de un objeto para tomar diferentes formas y responder de manera distinta al mismo mensaje',
+            'Información que describe el contenido, formato, estructura y uso de los datos en un contexto empresarial.',
         },
         {
-          termino: 'Principios SOLID',
+          termino: 'Normalización avanzada',
           significado:
-            'Conjunto de cinco principios fundamentales para el diseño orientado a objetos',
+            'Proceso de diseño de bases de datos que va más allá de la tercera forma normal, incluyendo BCNF y formas normales superiores.',
         },
         {
-          termino: 'Refactorización',
+          termino: 'Prueba de hipótesis',
           significado:
-            'Proceso de reestructurar código existente sin cambiar su comportamiento externo',
+            'Método estadístico para tomar decisiones sobre poblaciones basándose en muestras de datos.',
         },
         {
-          termino: 'UML',
+          termino: 'Reglas de negocio',
           significado:
-            'Lenguaje Unificado de Modelado, utilizado para visualizar y documentar sistemas de <em>software</em>',
+            'Políticas, condiciones y restricciones que definen cómo se deben gestionar y validar los datos en un contexto empresarial.',
         },
         {
-          termino: 'Visibilidad',
+          termino: 'Tabla de hechos',
           significado:
-            'Nivel de acceso que tienen otros objetos a los miembros de una clase',
+            'Tabla central en un modelo dimensional que contiene las métricas o medidas del negocio y las claves foráneas a las dimensiones.',
         },
         {
-          termino: 'CASE',
+          termino: 'Tablas de dimensiones',
           significado:
-            'Herramientas de Ingeniería de <em>Software</em> Asistida por Computadora para el diseño y modelado',
+            'Tablas que contienen los atributos descriptivos utilizados para analizar los datos en las tablas de hechos.',
+        },
+        {
+          termino: 'Transformación de datos',
+          significado:
+            'Proceso de convertir datos de un formato o estructura a otro, incluyendo limpieza, normalización y agregación.',
+        },
+        {
+          termino: 'Validación cruzada',
+          significado:
+            'Técnica estadística para evaluar modelos analíticos dividiendo los datos en conjuntos de entrenamiento y prueba.',
+        },
+        {
+          termino: 'Variables categóricas',
+          significado:
+            'Tipos de datos que representan categorías o grupos discretos, que pueden ser nominales u ordinales.',
+        },
+        {
+          termino: 'Visualización avanzada',
+          significado:
+            'Técnicas sofisticadas para representar datos complejos de manera visual, incluyendo gráficos interactivos y multidimensionales.',
+        },
+        {
+          termino: '<em>Workflow ETL</em>',
+          significado:
+            'Flujo de trabajo que define la secuencia y dependencias de los procesos de extracción, transformación y carga de datos.',
         },
       ],
     }

@@ -59,88 +59,54 @@ export default {
     complementarioData() {
       return [
         {
-          tema: '1. Fundamentos de la Programación Orientada a Objetos',
+          tema: '1. Modelamiento avanzado de datos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, mayo 10). <em>Programación orientada a objetos</em>.',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023e, marzo 27). <em>Modelos y metodologías de analítica</em>.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=TE0TKx9dEtI',
+          link: 'https://www.youtube.com/watch?v=96pohadjEWE ',
         },
         {
-          tema: '1. Fundamentos de la Programación Orientada a Objetos',
+          tema: '2. Inteligencia de negocios',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, julio 1). Abstracción: <em>Paradigma orientado a objetos.</em> ',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023d, marzo 27). <em>Bodegas de datos</em>',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=91N3L3mEGqo',
+          link: 'https://www.youtube.com/watch?v=SsP1tA6hAdg',
         },
         {
-          tema: '2. Principios de diseño orientado a objetos',
+          tema: '2. Inteligencia de negocios',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, julio 1). <em>Clases y objetos.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023a, marzo 23). <em>Modelos y esquemas de bodega de datos</em>.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=gVH6zEnCY1c',
+          link: 'https://www.youtube.com/watch?v=Uq6WxfzaroM ',
         },
         {
-          tema: '2. Principios de diseño orientado a objetos',
+          tema: '3. Análisis exploratorio de datos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2020, 23 junio). <em>Jerarquía.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=39VJptW7jQo',
+            '<em>Limpiar datos de Excel, CSV, PDF y Hojas de cálculo de Google con el intérprete de datos</em>. (s. f.). Tableau.',
+          tipo: 'Portal <em>web</em>',
+          link:
+            'https://help.tableau.com/current/pro/desktop/es-es/data_interpreter.htm ',
         },
         {
-          tema: '3. Modelado y diseño UML',
+          tema: '3. Análisis exploratorio de datos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2024, 3 abril). <em>Descarga e instalación de herramienta CASE MySQL Workbench.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, marzo 24). <em>Introducción a la aplicación de herramientas estadísticas en la presentación de datos</em>.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=nQ0FWBJbbi0',
+          link: 'https://www.youtube.com/watch?v=M9q9zxX8Evc< ',
         },
         {
-          tema: '3. Modelado y diseño UML',
+          tema: '4. Preparación avanzada de datos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, marzo 27). <em>Diagramas de Secuencia UML.</em>',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023c, julio 25). <em>Procesamiento y análisis de datos</em>.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=HKbL1bWenIY',
+          link: 'https://www.youtube.com/watch?v=8OSIN2kdU5o',
         },
         {
-          tema: '3. Modelado y diseño UML',
+          tema: '4. Preparación avanzada de datos',
           referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, marzo 26). <em>UML.</em> ',
+            'Ecosistema de Recursos Educativos Digitales SENA. (2023e, diciembre 30). <em>Modelamiento, análisis y preparación de datos</em>.',
           tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=gVt_zU_E8wY',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2023, marzo 25). <em>Diagrama de casos de uso.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=yQSmLldIpNo',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, julio 1). <em>Diagramas de clase: StarUML.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=fPbUqr49DYU',
-        },
-        {
-          tema: '3. Modelado y diseño UML',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, noviembre 24). <em>Diagrama de componentes.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=sp8APOAyTfk',
-        },
-        {
-          tema: '4. Patrones y arquitectura orientada a objetos',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, diciembre 10). <em>Patrones de diseño de software.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=ZufBcrlUqak',
-        },
-        {
-          tema: '4. Patrones y arquitectura orientada a objetos',
-          referencia:
-            'Ecosistema de Recursos Educativos Digitales SENA. (2021, noviembre 26). <em>Diseño de patrones de software: introducción.</em>',
-          tipo: 'Video',
-          link: 'https://www.youtube.com/watch?v=sQHRHhsRUoA ',
+          link: 'https://www.youtube.com/watch?v=HjJpqHD6sV0',
         },
       ]
     },

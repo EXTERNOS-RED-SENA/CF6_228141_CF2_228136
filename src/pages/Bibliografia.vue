@@ -23,77 +23,63 @@ export default {
     referencias: [
       {
         referencia:
-          'Blanco, P., & Sánchez, J. (2023). Fundamentos de la programación orientada a objetos con Java. Ra-Ma Editorial.',
+          'Aguilar, L. J. (2020). Inteligencia de negocios y analítica de datos. Marcombo.',
         link: '',
       },
       {
         referencia:
-          'Ceballos, F. J. (2022). Programación orientada a objetos con C++. Ra-Ma Editorial.',
+          'De Pablos Heredero, C., Agius, J. J. L. H., Romero, S. M., & Salgado, S. M. (2019). Organización y transformación de los sistemas de información en la empresa. ESIC.',
         link: '',
       },
       {
         referencia:
-          'Deitel, P., & Deitel, H. (2024). Java How to Program (12th ed.). Pearson Education.',
+          'Díaz, C. O., Soler, P., Pérez, M. & Mier, A. (2024). OMASHU: La ciencia detrás del éxito; Big Data e IA en los eSports. Revista SISTEMAS, 170, 61-79.',
         link: '',
       },
       {
         referencia:
-          'Freeman, E., Robson, E., Sierra, K., & Bates, B. (2022). Head First Design Patterns (3rd ed.). O&#39;Reilly Media.',
+          'Guardelli, E. (2024). Minería de Procesos: Convertir Datos en Valor. MedTechBiz.',
         link: '',
       },
       {
         referencia:
-          'Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (2023). Design Patterns: Elements of Reusable Object-Oriented <em>Software</em> (Anniversary ed.). Addison-Wesley Professional.',
+          'Jones, H. (2018). Analítica de Datos: Una guía esencial para principiantes en minería de datos, recolección de datos, análisis de <em>Big Data</em> para negocios y conceptos de inteligencia empresarial. Independently Published.',
         link: '',
       },
       {
         referencia:
-          'García, A., & Martínez, C. (2023). UML: Modelado de software para profesionales. Alfaomega.',
+          'Maldonado, L. (2012). Data Analysis Using Regression and Multilevel/Hierarchical Models. Persona y Sociedad, 26(1), 191.',
+        link: 'https://doi.org/10.53689/pys.v26i1.12',
+      },
+      {
+        referencia:
+          'McKinsey, W. (2023). Python para análisis de datos. Anaya Multimedia.',
         link: '',
       },
       {
         referencia:
-          'Larman, C. (2022). Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design (4th ed.). Pearson Education.',
+          'Orlandi, M. A. M. (2024). Tecnologías Big Data, Minería de Datos y Analítica aplicada a la gestión de Recursos Humanos: contiene: un caso de estudio. Editora Dialética.',
         link: '',
       },
       {
         referencia:
-          'López, J. M., & Montero, F. (2024). Patrones de diseño en Java: Una guía práctica. Universidad de Castilla-La Mancha.',
+          'Peraza, E. A. C. (2012). Estructuras y Fundamentos de Datos. Guía de ejercicios prácticos. Lulu.com.',
         link: '',
       },
       {
         referencia:
-          'Martin, R. C. (2023). Clean Architecture: A Craftsman&#39;s Guide to Software Structure and Design. Prentice Hall.',
+          'Shovic, J. C. & Simpson, A. (2019). Python All-in-One For Dummies. John Wiley & Sons.',
         link: '',
       },
       {
         referencia:
-          'Martin, R. C. (2021). Agile <em<Software Development</em>, Principles, Patterns, and Practices (2nd ed.). Pearson Education.',
-        link: '',
+          'Subirats Maté, L., Pérez Trenard, D. O., Calvo González, M. & Isabel Guitart Hormigo. (2019). Introducción a la limpieza y análisis de los datos. ',
+        link:
+          'https://openaccess.uoc.edu/bitstream/10609/148647/1/IntroduccionALaLimpiezaYAnalisisDeLosDatos.pdf',
       },
       {
         referencia:
-          'Méndez, A. (2023). Principios SOLID explicados: Una guía práctica con ejemplos en Python. Marcombo.',
-        link: '',
-      },
-      {
-        referencia:
-          'Phillips, D. (2024). Python 3 Object-Oriented Programming (4th ed.). Packt Publishing.',
-        link: '',
-      },
-      {
-        referencia:
-          'Sánchez, G. (2022). Programación orientada a objetos: Un enfoque práctico. Universidad Nacional Autónoma de México.',
-        link: '',
-      },
-      {
-        referencia:
-          'Torres, R., & Velázquez, P. (2023). Modelado UML con ejemplos prácticos. Alfaomega.',
-        link: '',
-      },
-      {
-        referencia:
-          'Valdés-Miranda, C., & Rodríguez, P. (2024). Diseño y programación orientada a objetos: Una perspectiva práctica. Anaya Multimedia.',
+          'Wilke, C. O. (2019). Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures. O’Reilly Media.',
         link: '',
       },
     ],

@@ -1,37 +1,96 @@
-<template lang="pug">
-.curso-main-container.introduccion
-  BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span
-          i.fas.fa-info
-      h1 Introducción
-    .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3
-        p.mb-4 La programación orientada a objetos (POO) es uno de los paradigmas más influyentes en el desarrollo de #[em software] moderno. Su capacidad para modelar problemas complejos de manera intuitiva, junto con su enfoque en la reutilización y mantenibilidad del código, la han convertido en una herramienta fundamental para desarrolladores y arquitectos de #[em software].
-        .p-4(style="background-color: #CFF8DE")
-          .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/1.svg', alt='')
-            .col-lg-10
-              p.mb-0 Este componente aborda de manera sistemática los conceptos y prácticas de la programación orientada a objetos, desde sus fundamentos hasta la implementación de arquitecturas robustas. Se explora el paradigma desde múltiples perspectivas: comenzando con los conceptos básicos de clases y objetos, avanzando hacia principios de diseño sofisticados como SOLID, y culminando con patrones arquitectónicos y mejores prácticas de la industria.
-      .col-lg-4.col-7: img(src='@/assets/curso/temas/2.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3.png', alt='')
-      .col-lg-9
-        p.mb-4 A lo largo del material, se combinan conceptos teóricos con ejemplos prácticos del mundo real, proporcionando una base sólida para que los estudiantes desarrollen #[em software] orientado a objetos de calidad. Se enfatiza la importancia del modelado y diseño previo a la implementación, utilizando herramientas como UML para visualizar y comunicar efectivamente las estructuras y relaciones entre objetos.
-        .p-4(style="background-color: #EDE9EC ") 
-          p.mb-0  La integración de conceptos arquitectónicos con prácticas de modelado asegura que los estudiantes no solo aprendan a escribir código orientado a objetos, sino que también comprendan cómo diseñar sistemas escalables y mantenibles. Como sugiere un principio fundamental en el desarrollo de software: "El buen diseño es tan importante como el buen código".
-    p.mb-5(data-aos='fade-right') ¡Lo invitamos a explorar el mundo de la programación orientada a objetos, donde descubrirás cómo crear #[em software] robusto y flexible, aplicando principios y patrones que han resistido la prueba del tiempo!
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/BktcL3QiGKA?si=ewQ8hEH1cHsvES6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Programación orientada a objetos conceptos y modelado.
-
-
-
-    
+<template>
+  <div class="curso-main-container introduccion">
+    <BannerInterno></BannerInterno>
+    <div class="container tarjeta tarjeta--blanca p-4 p-md-5 mb-5">
+      <div class="titulo-principal color-acento-contenido" data-aos="flip-up">
+        <div class="titulo-principal__numero">
+          <span><i class="fas fa-info"></i></span>
+        </div>
+        <h1>Introducción</h1>
+      </div>
+      <p data-aos="fade-right">
+        En la era actual de la inteligencia artificial, la gestión avanzada de
+        datos se ha convertido en un pilar fundamental para el éxito de
+        cualquier iniciativa de transformación digital. La complejidad creciente
+        de los sistemas de información y la necesidad de procesar volúmenes
+        masivos de datos requieren un enfoque sofisticado que va más allá de las
+        técnicas tradicionales de gestión de datos.
+      </p>
+      <div class="row mt-4">
+        <div class="col-lg mb-4 mb-lg-0" data-aos="zoom-in">
+          <div
+            class="p-4 h-100 d-flex align-content-center flex-wrap"
+            style="background-color:#ECF2FF;border-radius:10px;"
+          >
+            <p class="mb-0">
+              Este componente formativo aborda los aspectos más avanzados de la
+              integración y gestión de datos para IA, proporcionando una
+              comprensión de las metodologías, arquitecturas y técnicas
+              necesarias para construir soluciones robustas y escalables. Desde
+              el modelamiento avanzado de datos hasta la implementación de
+              bodegas de datos empresariales, cada tema se explora con un
+              enfoque práctico.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg mb-4 mb-lg-0 d-none d-lg-block" data-aos="zoom-in">
+          <figure><img src="@/assets/curso/intro1.png" /></figure>
+        </div>
+        <div class="col-lg mb-4 mb-lg-0" data-aos="zoom-in">
+          <div
+            class="p-4 h-100 d-flex align-content-center flex-wrap"
+            style="background-color:#BDE9FC;border-radius:10px;"
+          >
+            <p class="mb-0">
+              A lo largo del componente, se examinarán las mejores prácticas en
+              inteligencia de negocios, incluyendo las metodologías de Kimball e
+              Inmon, así como las arquitecturas modernas para el almacenamiento
+              y procesamiento de datos. El análisis exploratorio y las técnicas
+              avanzadas de preparación de datos completarán el conjunto de
+              herramientas necesarias para enfrentar los desafíos actuales en la
+              gestión de datos para IA.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div
+          class="col-md-auto d-none d-md-block"
+          data-aos="fade-right"
+          style="place-self:center;"
+        >
+          <figure><img src="@/assets/curso/intro2.svg" /></figure>
+        </div>
+        <div class="col-md" style="place-self:center;" data-aos="fade-left">
+          <p>
+            La comprensión de estos conceptos avanzados es importante para
+            cualquier persona que busque diseñar e implementar soluciones
+            efectivas de gestión de datos en el contexto de la inteligencia
+            artificial. Como dice un principio fundamental en este campo: "La
+            arquitectura de datos de hoy determina las posibilidades analíticas
+            del mañana".
+          </p>
+          <p class="mb-0 fw-bold">
+            ¡Bienvenido a este viaje por las técnicas avanzadas de gestión de
+            datos para IA!
+          </p>
+        </div>
+      </div>
+      <figure class="mt-4" data-aos="zoom-in-up" data-aos-duration="800">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mxb4fQq2CNw"
+            title="Integración y gestión avanzada de datos para inteligencia artificial"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="allowfullscreen"
+          ></iframe>
+        </div>
+      </figure>
+    </div>
+  </div>
 </template>
 
 <script>

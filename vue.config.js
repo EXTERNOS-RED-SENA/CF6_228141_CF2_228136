@@ -1,4 +1,4 @@
-const titulo = 'Programación orientada a objetos: conceptos y modelado'
+const titulo = 'Integración y gestión avanzada de datos para inteligencia artificial'
 
 module.exports = {
   publicPath: '',
