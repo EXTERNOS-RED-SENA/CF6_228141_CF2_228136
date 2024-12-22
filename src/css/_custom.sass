@@ -1,0 +1,54 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 75%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 0%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 70%
+
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 400px !important 
+
+.hover
+  transition: background .3s ease-in-out
+  background-color: #F5F5F5
+  &:hover
+    background-color: #083471
+    h4, p
+      color: white
+.shadow 
+  -webkit-box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75)
+  -moz-box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75)
+  box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75)
+.mn
+  margin: 0 -3rem
+.bg-slyder
+  background-image: url(../assets/curso/temas/bg-slyder.png)
+  background-position: 0 0
+  background-size: cover
+  background-repeat: no-repeat
+.tarjeta--azul
+  background-color: #CFE1FA
+.acordion__activo
+  background-color: #CFF8DE
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: $color-sistema-texto
